@@ -1,5 +1,6 @@
 :root {
 --header-color: #2196F3;
+--accent-color: #FFFFFF;
 
 }
 
@@ -14,7 +15,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color:  #212121;
-    background-color: #FFFFFF;
+    background-color: var(--accent-color);
     
 }
 
@@ -34,6 +35,9 @@ letter-spacing: 0.02em;
     color: #000000
 }
 
+.nav-list-item.current {
+    color: var(--header-color);
+}
 .nav-list-item,.header-tel,.mail {
 
 font-weight: 500;
@@ -63,21 +67,52 @@ color: #757575;
     color: var(--header-color);
 }
 
+/* -------------Hero------------------- */
+.hero {
+    background-color: #2F303A;
+}
+.hero-h {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--accent-color);
+
+}
+.hero-bt {
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--accent-color);
+background-color: var(--header-color);
+cursor: pointer;
+}
+.hero-bt:hover,
+.hero-bt:focus {
+    border-color: var(--accent-color);
+}
+
 /*--------------Footer------------------*/
 .basement {
 background-color: brown;  
 }
 .logo-footer {
-    color: #FFFFFF;
+    color: var(--accent-color);
 }
 .basement-adr {
-font-family: 'Roboto';
-font-style: normal;
+font-family: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--accent-color);
 }
 
 
