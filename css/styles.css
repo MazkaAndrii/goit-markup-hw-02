@@ -3,6 +3,7 @@
   --accent-color: #ffffff;
   --text-color: #212121;
   --font-weight: 700;
+  --basetext-color: #757575;
 }
 
 .list {
@@ -67,7 +68,7 @@ body {
 
 .header-tel,
 .mail {
-  color: #757575;
+  color: var(--basetext-color);
 }
 .header-tel:hover,
 .header-tel:focus {
@@ -131,7 +132,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--basetext-color);
 }
 
 /* --------------About---------------- */
@@ -173,7 +174,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--basetext-color);
 }
 /*--------------Footer------------------*/
 .basement {
@@ -183,11 +184,55 @@ body {
   color: var(--accent-color);
 }
 .basement-adr {
-  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+/* ----------------------PORTFOLIO---------------------------- */
+/* -------------Our services------------- */
+
+.our-services {
+}
+
+.oserv-but {
+}
+
+.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background: var(--header-color);
+  color: var(--accent-color);
+}
+
+.oserv-list {
+}
+
+.OServ-item {
+}
+
+.oserv-item-head {
+  font-weight: var(--font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.oserv-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
 }
