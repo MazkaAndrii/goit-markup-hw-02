@@ -178,7 +178,7 @@ body {
 }
 /*--------------Footer------------------*/
 .basement {
-  background-color: brown;
+  background-color: #2F303A;;
 }
 .logo-footer {
   color: var(--accent-color);
@@ -190,6 +190,25 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
+.basement-tel,
+.basement-mail {
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.basement-tel:hover,
+.basement-tel:focus {
+  color: var(--header-color);
+}
+
+.basement-mail:hover,
+.basement-mail:focus {
+  color: var(--header-color);
+}
+
 
 /* ----------------------PORTFOLIO---------------------------- */
 /* -------------Our services------------- */
