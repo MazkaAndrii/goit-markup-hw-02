@@ -108,7 +108,7 @@ body {
 }
 .hero-bt:hover,
 .hero-bt:focus {
-  background-color: var(--header-color);
+  background-color: #188ce8;
 }
 
 /* -------------Benefits---------------- */
@@ -178,7 +178,7 @@ body {
 }
 /*--------------Footer------------------*/
 .basement {
-  background-color: #2F303A;;
+  background-color: #2F303A;
 }
 .logo-footer {
   color: var(--accent-color);
