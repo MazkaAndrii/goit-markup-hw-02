@@ -108,7 +108,7 @@ body {
 }
 .hero-bt:hover,
 .hero-bt:focus {
-  border-color: var(--accent-color);
+  background-color: var(--header-color);
 }
 
 /* -------------Benefits---------------- */
